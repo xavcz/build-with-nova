@@ -11,6 +11,8 @@ Package.onUse(function(api) {
     'nova:forms',
     'std:accounts-ui@1.2.19',
   ]);
+  
+  api.addFiles('styles.css', 'client');
 
   api.mainModule('server.js', 'server');
   api.mainModule('client.js', 'client');

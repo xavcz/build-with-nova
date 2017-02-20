@@ -1,0 +1,17 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  color: #2C2E34;
+  font-family: 'Roboto Condensed', sans-serif;
+  background: #FAFAFA;
+  margin: 0;
+  width: 100%;
+  zoom: 1;
+  font-size: 18px;
+}

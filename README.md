@@ -5,6 +5,13 @@ Custom package for Nova with two purposes:
 - give hints on how to get started with Nova, similar as [Nomad Airlines](http://nomadairlines.com/)
 - experiment stuff on a custom package with Nova: `react-storybook` & `styled-components`
 
+### NPM Dependencies
+```sh
+getstorybook
+
+npm install --save styled-components
+```
+
 ### `.meteor/packages`
 
 ```
@@ -32,7 +39,16 @@ get-started-with-nova
 
 ### `.storybook/config.js`
 ```js
-import { configure } from '@kadira/storybook';
+import React from 'react';
+import { configure, addDecorator } from '@kadira/storybook';
+
+import '../packages/get-started-with-nova/styles.css';
+import { Wrapper } from '../packages/get-started-with-nova/lib/components/Layout';
+
+const LayoutDecorator = story =>
+  <Wrapper>{story()}</Wrapper>
+
+addDecorator(LayoutDecorator);
 
 const req = require.context(
   '../packages/get-started-with-nova/lib/components', 

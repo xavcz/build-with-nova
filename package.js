@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'get-started-with-nova',
+  name: 'build-with-nova',
   version: '0.0.1',
 });
 

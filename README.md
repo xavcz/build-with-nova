@@ -1,8 +1,8 @@
-# Get Started with Nova
+# Build with Nova
 
 ### What's up?
 Custom package for Nova with two purposes:
-- give hints on how to get started with Nova, similar as [Nomad Airlines](http://nomadairlines.com/)
+- give hints on how to build great apps with Nova, similar as [Nomad Airlines](http://nomadairlines.com/)
 - experiment stuff on a custom package with Nova: `react-storybook` & `styled-components`
 
 ### NPM Dependencies
@@ -34,7 +34,7 @@ nova:i18n-en-us
 
 accounts-password@1.3.4
 
-get-started-with-nova
+build-with-nova
 ```
 
 ### `.storybook/config.js`
@@ -42,8 +42,8 @@ get-started-with-nova
 import React from 'react';
 import { configure, addDecorator } from '@kadira/storybook';
 
-import '../packages/get-started-with-nova/styles.css';
-import { Wrapper } from '../packages/get-started-with-nova/lib/components/Layout';
+import '../packages/build-with-nova/styles.css';
+import { Wrapper } from '../packages/build-with-nova/lib/components/Layout';
 
 const LayoutDecorator = story =>
   <Wrapper>{story()}</Wrapper>
@@ -51,7 +51,7 @@ const LayoutDecorator = story =>
 addDecorator(LayoutDecorator);
 
 const req = require.context(
-  '../packages/get-started-with-nova/lib/components', 
+  '../packages/build-with-nova/lib/components', 
   true, 
   /.stories.js$/
 );

@@ -9,7 +9,7 @@ Custom package for Nova with two purposes:
 ```sh
 getstorybook
 
-npm install --save styled-components
+npm install --save styled-components@1.3.1 # this version is compatible with Nova's SSR `postRender` hook
 ```
 
 ### `.meteor/packages`
@@ -32,7 +32,7 @@ nova:embedly
 
 nova:i18n-en-us
 
-accounts-password@1.3.4
+accounts-twitter
 
 build-with-nova
 ```

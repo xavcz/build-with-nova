@@ -1,9 +1,10 @@
+> **Disclaimer:** I can't not ensure you'll be able to make this package work :) If you have any question, don't hesitate to drop by Slack: http://slack.telescopeapp.org
+
+
 # Build with Nova
 
 ### What's up?
-Custom package for Nova with two purposes:
-- give hints on how to build great apps with Nova, similar as [Nomad Airlines](http://nomadairlines.com/)
-- experiment stuff on a custom package with Nova: `react-storybook` & `styled-components`
+Experiment stuff on a custom package with Nova: `react-storybook` & `styled-components`
 
 ### NPM Dependencies
 ```sh

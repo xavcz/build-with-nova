@@ -1,4 +1,4 @@
-> **Disclaimer:** I can't not ensure you'll be able to make this package work :) If you have any question, don't hesitate to drop by Slack: http://slack.telescopeapp.org
+> **Disclaimer:** I cannot ensure you'll be able to make this package work :) If you have any question, don't hesitate to drop by Slack: http://slack.telescopeapp.org
 
 
 # Build with Nova
